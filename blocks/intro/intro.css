@@ -1,0 +1,13 @@
+.intro
+{
+    margin: 0;
+    margin-left: calc(100vw * 0.11);
+    padding: 0;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: #fff;
+}
