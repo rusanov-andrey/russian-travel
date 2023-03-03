@@ -1,0 +1,10 @@
+.cover
+{
+    margin: 0 48px;
+    padding: 0;
+
+    color: #fff;
+    position: relative;
+
+    display: table;
+}
