@@ -20,17 +20,19 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__article/place__article.css);
+@import url(../blocks/place/__patagraph/place__patagraph.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__url-string/place__url-string.css);
+@import url(../blocks/place/__url-pointer/place__url-pointer.css);
+
 @import url();
 @import url();
 @import url();
