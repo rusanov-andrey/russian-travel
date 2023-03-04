@@ -5,6 +5,12 @@
 
     color: #fff;
     position: relative;
+}
 
-    display: table;
+@media screen and (max-width: 1100px)
+{
+    .cover
+    {
+        margin: 0;
+    }
 }
