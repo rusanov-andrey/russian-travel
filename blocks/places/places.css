@@ -1,8 +1,26 @@
 .places
 {
     margin: 0;
-    padding: 0 calc(100vw * 0.11) 92px;
+    padding: 0 var(--intro_padding) 92px;
 
     display: grid;
     gap: 80px;
+}
+
+@media screen and (max-width: 900px) 
+{
+  .places 
+  {
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 750px) 
+{
+  .places 
+  {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 50px;
+  }
 }

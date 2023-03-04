@@ -1,7 +1,8 @@
 .lead__image-container
 {
-    margin: 0 calc(100vw * 0.11) 8px;
+    margin: 0 var(--lead_padding) 8px;
     padding: 0;
 
-    overflow: initial
+    object-fit: contain;
+    object-position: top;
 }

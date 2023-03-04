@@ -6,3 +6,22 @@
     font-size: 72px;
     font-weight: 900;
 }
+
+@media screen and (max-width: 900px) 
+{
+  .place__title 
+  {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 750px) 
+{
+  .place__title 
+  {
+    padding-left: var(--intro_padding);
+    padding-right: var(--intro_padding);
+
+    font-size: 32px;
+  }
+}

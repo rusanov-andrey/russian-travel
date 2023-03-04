@@ -9,3 +9,12 @@
     gap: 26px;
     align-content: start;
 }
+
+@media screen and (max-width: 750px) 
+{
+  .place__article 
+  {
+    padding-left: var(--intro_padding);
+    padding-right: var(--intro_padding);
+  }
+}

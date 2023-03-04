@@ -4,10 +4,33 @@
     padding: 0;
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     row-gap: 48px;
-    column-gap: 40px;
+    column-gap: calc(40 * 100vw / 1280.0);
 
     color: #fff;
+}
+
+@media screen and (min-width: 1440px) 
+{
+    .place
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 900px) 
+{
+  .place 
+  {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 750px) 
+{
+  .place 
+  {
+    row-gap: 32px;
+    font-size: 16px;
+  }
 }

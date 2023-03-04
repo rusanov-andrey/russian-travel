@@ -1,8 +1,16 @@
 .photo-grid
 {
     margin: 0;
-    padding: 0 48px 92px; /*calc(100vw * 0.11)*/
+    padding: 0 48px 92px; 
     display: grid;
     gap: 14px;
     grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+}
+
+@media screen and (max-width: 1020px) 
+{
+  .photo-grid 
+  {
+    padding: 0 var(--intro_padding) calc((100vw - 300px)*0.05 + 64px); 
+  }
 }

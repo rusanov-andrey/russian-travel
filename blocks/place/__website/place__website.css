@@ -11,3 +11,12 @@
 
     align-self: end;
 }
+
+@media screen and (max-width: 750px) 
+{
+  .place__website 
+  {
+    padding-left: var(--intro_padding);
+    padding-right: var(--intro_padding);
+  }
+}
