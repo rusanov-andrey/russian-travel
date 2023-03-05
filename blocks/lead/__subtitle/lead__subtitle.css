@@ -1,21 +1,21 @@
 .lead__subtitle
 {
-    margin: 0 auto;
-    padding: 0;
-    padding-bottom: calc(100vw * 0.05);
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: calc(100vw * 0.05);
 
-    font-size: 30px;
-    font-weight: 400;
+  font-size: 30px;
+  font-weight: 400;
 
-    text-align: center;
-    width: 640px;
+  text-align: center;
+  width: 640px;
 }
 
 @media screen and (max-width: 750px)
 {
-    .lead__subtitle
-    {
-        font-size: 16px;
-        width: 288px;
-    }
+  .lead__subtitle
+  {
+    font-size: 16px;
+    width: 288px;
+  }
 }

@@ -1,10 +1,10 @@
 .header
 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: calc(100vw * 0.05);
-    
-    display: flex;
-    position: relative;
-    justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-bottom: calc(100vw * 0.05);
+  
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 }

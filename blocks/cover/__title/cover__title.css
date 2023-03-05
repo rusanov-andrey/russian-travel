@@ -1,19 +1,19 @@
-.cover__title
+.cover__title 
 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 32px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
 
-    font-size: 72px;
-    font-weight: 900;
+  font-size: 72px;
+  font-weight: 900;
 
-    text-align: center;
+  text-align: center;
 }
 
-@media screen and (max-width: 720px)
+@media screen and (max-width: 720px) 
 {
-    .cover__title
-    {
-        font-size: calc(100vw/720.0*72);
-    }
+  .cover__title 
+  {
+    font-size: calc(100vw/720.0*72);
+  }
 }

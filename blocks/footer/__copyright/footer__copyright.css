@@ -1,16 +1,16 @@
-.footer__copyright
+.footer__copyright 
 {
-    margin: 0;
-    padding: 0;
-    justify-self: flex-end;
+  margin: 0;
+  padding: 0;
+  justify-self: flex-end;
 
-    font-size: 14px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 750px) 
 {
-  .footer__copyright
+  .footer__copyright 
   {
     margin-top: 16px;
     justify-self: flex-start;

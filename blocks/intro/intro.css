@@ -1,13 +1,13 @@
 .intro
 {
-    margin: 0;
-    margin-left: var(--intro_padding);
-    padding: 0;
+  margin: 0;
+  margin-left: var(--intro_padding);
+  padding: 0;
 
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
 
-    color: #fff;
+  color: #fff;
 }
