@@ -23,6 +23,7 @@
   .place 
   {
     font-size: 16px;
+    column-gap: 28px;
   }
 }
 
@@ -32,5 +33,6 @@
   {
     row-gap: 32px;
     font-size: 16px;
+    column-gap: calc(28 * 100vw / 895.0);
   }
 }

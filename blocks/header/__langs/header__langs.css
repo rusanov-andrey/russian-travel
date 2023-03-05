@@ -12,6 +12,14 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 900px)
+{
+  .header__langs
+  {
+    margin: 46px 24px 0;
+  }
+}
+
 @media screen and (max-width: 750px)
 {
   .header__langs
@@ -19,6 +27,5 @@
     margin: 30px 16px 0;
 
     font-size: 18px;
-    font-weight: 400;
   }
 }

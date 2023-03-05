@@ -6,6 +6,23 @@
 
   font-size: 12px;
   font-weight: 400;
+  line-height: 18px;
 
   list-style-type: none;
+}
+
+@media screen and (max-width: 900px)
+{
+  .intro__list
+  {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .intro__list
+  {
+    padding-bottom: 64px;
+  }
 }

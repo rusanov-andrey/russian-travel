@@ -8,28 +8,28 @@
   <title>Путешествия по России</title>
 </head>
 
-<body>
+<body style="background-color: #2A2C2F;">
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="" />
       <ul class="header__langs">
-        <li class="header__lang header__lang_decorate">Ru</li>
-        <li class="header__lang">En</li>
+        <li><a class="header__lang header__lang_decorate" href="#">Ru</a></li>
+        <li><a class="header__lang" href="#">En</a></li>
       </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <div class="lead__image-container">
+        <figure class="lead__image-container">
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Вид из окна вагона" />
-          <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
+          <figurecaption class="lead__caption">ваша полка — верхняя</figurecaption>
+        </figure>
       </section>
 
       <section class="intro">
-        <h2 id="intro__title" class="intro__title">Чего мы там не видели?</h2>
-        <p id="intro__text" class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
           планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это
           целая
           вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
@@ -38,32 +38,27 @@
           километров
           по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li><b>Часовых поясов</b> 11</li>
+          <li><b>Объектов природного наследия ЮНЕСКО</b> 12</li>
+          <li><b>Объектов культурного наследия ЮНЕСКО</b> 16</li>
+          <li><b>Природных заповедников 105</b></li>
+          <li><b>Аэропортов</b> 241</li>
         </ul>
-        <script>document.getElementById("intro__text").style.width = document.getElementById("intro__title").offsetWidth + "px"</script>
       </section>
 
       <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg"
-          alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg"
-          alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg"
-          alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg"
-          alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Изображение одной из точек России" />
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Изображение одной из точек России" />
+        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Машина на льду байкала" />
+        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Заснеженные горы" />
+        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Озеро Байкал" />
+        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Берег озера Байкал" />
+        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус" />
+        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Горные вершины в тумане" />
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Ущелье на Камчатке" />
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Долина на Камчатке на фоне горы" />
+        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Пешеходный переход на фоне волнорезов" />
+        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Сколн горы в Сочи" />
+        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда на Чёрное море" />
+        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Стог в тумане" />
       </section>
 
       <section class="places">

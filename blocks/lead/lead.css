@@ -2,10 +2,27 @@
 {
   margin: 0;
   padding: 0;
+  padding-bottom: 92px;
 
   display: flex;
   position: relative;
   flex-direction: column;
 
   color: #fff;
+}
+
+@media screen and (max-width: 900px)
+{
+  .lead
+  {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .lead
+  {
+    padding-bottom: 64px;
+  }
 }

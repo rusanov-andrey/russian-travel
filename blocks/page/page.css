@@ -4,19 +4,19 @@
     --intro_padding: calc(var(--lead_padding));
 }
 
-@media screen and (min-width: 1440px) 
+@media screen and (min-width: 1281px) 
 {
   :root 
   {
-    --lead_padding: 216px;
+    --lead_padding: 152px;
     --intro_padding: calc(var(--lead_padding));
   }
 }
-@media screen and (max-width: 960px) 
+@media screen and (max-width: 970px) 
 {
   :root 
   {
-    --intro_padding: calc((24 * 100vw)/960.0);
+    --intro_padding: calc(0.0179 * 100vw + 10.3px);
   }
 }
 @media screen and (max-width: 900px) 
@@ -30,9 +30,12 @@
 
 .page 
 {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: Inter, Arial, sans-serif;
+
+  max-width: 1280px;
+  min-width: 320px;
 
   background: #2A2C2F;
 }
