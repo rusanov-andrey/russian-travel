@@ -4,7 +4,7 @@
   padding: 0;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, auto);
   row-gap: 48px;
   column-gap: calc(40 * 100vw / 1280.0);
 
@@ -22,7 +22,6 @@
 {
   .place 
   {
-    font-size: 16px;
     column-gap: 28px;
   }
 }
@@ -34,5 +33,6 @@
     row-gap: 32px;
     font-size: 16px;
     column-gap: calc(28 * 100vw / 895.0);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }

@@ -34,8 +34,6 @@
 @import url(../blocks/place/__patagraph/place__patagraph.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__url-string/place__url-string.css);
-@import url(../blocks/place/__url-pointer/place__url-pointer.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);

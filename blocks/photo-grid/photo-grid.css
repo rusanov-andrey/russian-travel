@@ -14,3 +14,12 @@
     padding: 0 var(--intro_padding) calc((100vw - 300px)*0.05 + 64px);
   }
 }
+
+@media screen and (max-width: 750px) 
+{
+  .photo-grid
+  {
+    gap: 12px;
+    padding-bottom: 64px;
+  }
+}
