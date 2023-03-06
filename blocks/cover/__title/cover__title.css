@@ -6,6 +6,9 @@
 
   font-size: 72px;
   font-weight: 900;
+  line-height: 76px;
+
+  max-width: 560px;
 
   text-align: center;
 }
@@ -15,5 +18,8 @@
   .cover__title 
   {
     font-size: calc(100vw/720.0*72);
+    line-height: calc(100vw/720.0*72 + 3px);
+    max-width: 248px;
+    padding-bottom: 16px;
   }
 }

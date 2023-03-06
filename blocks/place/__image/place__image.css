@@ -1,6 +1,6 @@
 .place__image
 {
-  width: calc(0.078 * 100vw + 361px);
+  width: calc(0.078125 * 100vw + 360px);
   object-fit: cover;
 }
 

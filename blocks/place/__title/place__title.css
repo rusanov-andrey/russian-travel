@@ -6,6 +6,8 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+
+  width: calc(0.078 * 100vw + 361px);
 }
 
 @media screen and (max-width: 900px) 
@@ -14,6 +16,7 @@
   {
     font-size: 42px;
     line-height: 46px;
+    width: calc(0.69 * 100vw - 190px);
   }
 }
 

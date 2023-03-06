@@ -2,21 +2,26 @@
 {
   margin: 0;
   padding: 0;
-  padding-left: 18px;
+  padding-right: 18px;
   text-decoration: none;
   color: #fff;
 
   font-size: 16px;
   font-weight: 400;
+  line-height: 18px;
+}
+.footer__link:hover
+{
+  cursor: url(../../../images/pointer.svg), pointer;
 }
 
 @media screen and (max-width: 750px) 
 {
   .footer__link 
   {
-    padding-left: 0;
     margin-bottom: 32px;
 
     font-size: 24px;
+    line-height: 24px;
   }
 }

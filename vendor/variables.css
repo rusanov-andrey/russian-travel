@@ -1,0 +1,28 @@
+:root
+{
+    --lead_padding: calc((100vw - 900px) * 0.4);
+    --intro_padding: calc(var(--lead_padding));
+}
+
+@media screen and (min-width: 1281px) 
+{
+  :root 
+  {
+    --lead_padding: 152px;
+    --intro_padding: calc(var(--lead_padding));
+  }
+}
+@media screen and (max-width: 970px) 
+{
+  :root 
+  {
+    --intro_padding: calc(0.0179 * 100vw + 10.3px);
+  }
+}
+@media screen and (max-width: 900px) 
+{
+  :root 
+  {
+    --lead_padding: 0;
+  }
+}
