@@ -1,5 +1,4 @@
-.footer__link 
-{
+.footer__link {
   margin: 0;
   padding: 0;
   padding-right: 18px;
@@ -9,16 +8,16 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
-}
-.footer__link:hover
-{
+
   cursor: url(../../../images/pointer.svg), pointer;
 }
 
-@media screen and (max-width: 750px) 
-{
-  .footer__link 
-  {
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__link {
     margin-bottom: 32px;
 
     font-size: 24px;

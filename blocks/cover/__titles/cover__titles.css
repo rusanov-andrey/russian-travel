@@ -1,5 +1,4 @@
-.cover__titles
-{
+.cover__titles {
   position: relative;
   aspect-ratio: 2048/1280;
   display: flex;
@@ -16,8 +15,7 @@
   z-index: 0;
 }
 
-.cover__titles::before
-{
+.cover__titles::before {
   content: "";
   position: absolute;
   top: 0;
@@ -29,7 +27,6 @@
   z-index: -1;
 }
 
-.cover__titles:hover::before
-{
+.cover__titles:hover::before {
   opacity: 0.8;
 }

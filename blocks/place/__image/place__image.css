@@ -1,21 +1,16 @@
-.place__image
-{
+.place__image {
   width: calc(0.078125 * 100vw + 360px);
   object-fit: cover;
 }
 
-@media screen and (max-width: 900px) 
-{
-  .place__image 
-  {
+@media screen and (max-width: 900px) {
+  .place__image {
     width: calc(0.69 * 100vw - 190px);
   }
 }
 
-@media screen and (max-width: 750px) 
-{
-  .place__image 
-  {
+@media screen and (max-width: 750px) {
+  .place__image {
     max-width: 100%;
     width: auto;
   }

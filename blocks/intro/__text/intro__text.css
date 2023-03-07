@@ -1,5 +1,4 @@
-.intro__text
-{
+.intro__text {
   margin: 0;
   padding: 0;
   padding-bottom: 33px;
@@ -11,10 +10,8 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 900px) 
-{
-  .intro__text
-  {
+@media screen and (max-width: 900px) {
+  .intro__text {
     max-width: none;
     padding-right: var(--intro_padding);
   }

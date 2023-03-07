@@ -1,5 +1,4 @@
-.place__link
-{
+.place__link {
   margin: 0;
   padding: 0;
 
@@ -11,4 +10,8 @@
   line-height: 22px;
 
   cursor: url(../../../images/pointer.svg), pointer;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

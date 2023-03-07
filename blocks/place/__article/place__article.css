@@ -1,5 +1,4 @@
-.place__article
-{
+.place__article {
   margin: 0;
   padding: 0;
 
@@ -10,10 +9,8 @@
   align-content: start;
 }
 
-@media screen and (max-width: 750px) 
-{
-  .place__article 
-  {
+@media screen and (max-width: 750px) {
+  .place__article {
     padding-left: var(--intro_padding);
     padding-right: var(--intro_padding);
   }

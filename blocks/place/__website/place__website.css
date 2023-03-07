@@ -1,5 +1,4 @@
-.place__website
-{
+.place__website {
   margin: 0;
   padding: 0;
 
@@ -12,10 +11,8 @@
   align-self: end;
 }
 
-@media screen and (max-width: 750px) 
-{
-  .place__website 
-  {
+@media screen and (max-width: 750px) {
+  .place__website {
     padding-left: var(--intro_padding);
     padding-right: var(--intro_padding);
   }

@@ -1,5 +1,4 @@
-.lead
-{
+.lead {
   margin: 0;
   padding: 0;
   padding-bottom: 92px;
@@ -11,18 +10,14 @@
   color: #fff;
 }
 
-@media screen and (max-width: 900px)
-{
-  .lead
-  {
+@media screen and (max-width: 900px) {
+  .lead {
     padding-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 750px)
-{
-  .lead
-  {
+@media screen and (max-width: 750px) {
+  .lead {
     padding-bottom: 64px;
   }
 }

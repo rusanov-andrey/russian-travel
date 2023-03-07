@@ -1,5 +1,10 @@
-.header__lang
-{
+.header__lang {
   color: #fff;
   text-decoration: none;
+
+  cursor: url(../../../images/pointer.svg), pointer;
+}
+
+.header__lang:hover {
+  opacity: 0.8;
 }

@@ -1,5 +1,4 @@
-.footer__links 
-{
+.footer__links {
   margin: 0;
   padding: 0;
 
@@ -8,10 +7,8 @@
   display: flex;
 }
 
-@media screen and (max-width: 750px) 
-{
-  .footer__links 
-  {
+@media screen and (max-width: 750px) {
+  .footer__links {
     flex-direction: column;
   }
 }

@@ -1,5 +1,4 @@
-.footer
-{
+.footer {
   margin: 0;
   padding: 92px 48px 24px;
 
@@ -9,18 +8,14 @@
   grid-template-columns: auto auto;
 }
 
-@media screen and (max-width: 900px) 
-{
-  .footer 
-  {
+@media screen and (max-width: 900px) {
+  .footer {
     padding: 88px 24px 24px;
   }
 }
 
-@media screen and (max-width: 750px) 
-{
-  .footer 
-  {
+@media screen and (max-width: 750px) {
+  .footer {
     padding: 64px 16px 24px;
     grid-template-columns: auto;
   }
