@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 750px) {
   .place__title {
+    width: auto;
     padding-left: var(--intro_padding);
     padding-right: var(--intro_padding);
 
